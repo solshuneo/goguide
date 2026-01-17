@@ -4,19 +4,27 @@ import "fmt"
 
 func main() {
 	// standard for loop
-	for i := 1; i < 10; i++ {
-		fmt.Println(i)
-	}
+	// var a = [5]int{1, 2, 3, 4}
+	// var length = 5
+	// for i := 0; i < length; i += 1 {
+	// 	fmt.Println(a[i])
+	// }
 	// for while
 	// var x = 10
 	// for x != 0 {
+	// 	fmt.Println(x)
+
 	// 	x -= 1
 	// }
-	// // infinite loop
-	// for {
-	// 	fmt.Println("infinite loop")
-	// 	break
+	// for x := 10; x != 0; x -= 1 {
+	// 	fmt.Println(x)
+
 	// }
+	// infinite loop
+	for {
+		fmt.Println("infinite loop")
+		break
+	}
 	// // for range
 	// var a = [5]int{1, 2, 3, 4, 5}
 	// for index, value := range a {
